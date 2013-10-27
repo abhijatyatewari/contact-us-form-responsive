@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" /> 
+
+<title>Sapient Interview</title>
+
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./css/animation.css" />
+<script src="./JS/jquery.min.js" type="text/javascript"></script>
+<script src="./JS/jquery.blueberry.js"></script>
+<script src="./JS/jquery.validate.min.js" type="text/javascript"></script>
+<script src="./JS/app.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+    <script src="js/html5.js" type="text/javascript"></script>
+<![endif]-->
+</head>
+
+<body>
+<div id="wrapper">
+
+  <div class="header">
+    <p class="logo"><img src="./images/sapient-logo.png" alt="Sapient Logo" /></p>
+    <ul class="headernav largeview">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#" class="active">Contact Us</a></li>
+    </ul>
+    <select class="smallview">
+    <option>Home</option>
+    <option>About Us</option>
+    <option>Projects</option>
+    <option selected>Contact Us</option>
+    </select>
+        
+  </div>
+ 
+    <h1>Contact Us </h1>
+   <div class="contentarea">
+   
+    <div class="side largeview">
+    <div class="carousel ">
+    	<div id="imagearea">
+     			<div class="blueberry">
+                          <ul class="slides">
+                            <li><img src="./images/item-1.png" alt="item" width="200" />
+                            		<p style="height:100px;  position:relative; z-index:10; background-color:#c2d337;"><span style="position:absolute; top: -15px;opacity: .5; background-color:#c2d337; height:20px; width:100%;">
+                                    
+                                                                      </span>
+                                                                      <b class="fontFormate">Careers</b><br>
+
+                                    To explore job opportunities at Sapient, Please see our <br>
+<a href="#">Hot Jobs</a></p>
+                            </li>
+                            <li><img src="./images/item-2.png" alt="" width="200" />
+                            		<p style="height:100px;  position:relative; z-index:10; background-color:#c2d337;"><span style="position:absolute; top: -15px;opacity: .5; background-color:#c2d337; height:20px;width:100%;"></span> 
+                                    
+                                                                                 <b class="fontFormate">Contact Us</b><br>
+                                       Morbi tincidunt commodo scelerisque.</p>
+                            </li>
+                            <li><img src="./images/item-3.png" alt="" width="200" />
+                            		<p style="height:100px;  position:relative; z-index:10; background-color:#c2d337;"><span style="position:absolute; top: -15px;opacity: .5; background-color:#c2d337; height:20px;width:100%;"></span>
+                                                                                <b class="fontFormate">About Us</b><br>
+                                    Duis porttitor diam vitae leo elementum accumsan.</p>
+                            </li>
+                          </ul>
+                    </div>
+                    </div>
+       </div>
+    </div>
+    
+    <div class="content">
+      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><br/>
+      <p class="largeview">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    <div id="submitStatus" class="submitmsg">
+      <p>Form Submitted Successfully.</p>
+    </div>
+     <form name="frmcontact" id="frmcontact" method="post">
+    <section class="formelts">     
+                        <input type="text" name="website" placeholder="Enter Name" id="name" />
+                        <div id="nameStatus" class="statusDiv"></div>
+                        <input type="password" name="password" placeholder="Password" minlength="6" id="password" required />
+                        <div id="passwordStatus" class="statusDiv"></div>
+                        <input type="password" name="confirmpass" placeholder="Confirm Password" minlength="6" id="confirmpass"  required />
+                        <div id="confirmpassStatus" class="statusDiv"></div>
+                        <input type="email" name="email" placeholder="Email"  class="required email" id="email" required />
+                        <div id="emailStatus" class="statusDiv"></div>
+                        <input type="url" name="weburl" placeholder="Website" id="weburl" required />
+                        <div id="weburlStatus" class="statusDiv"></div>
+                        <input type="Button" name="Submit" value="Submit" id="submit" class="btn"/>
+    </section>
+    <section class="businessunits">
+     <div class="inputcheckss">
+                    	<h2>Business Unit</h2>
+                            <div class="checkbox">
+    							<input id="paradigm_all" type="checkbox" name="12" value="check2">
+                                <label for="paradigm_all">Sapient</label>
+                                         <br>
+                                <div class="aerainside"><input id="check1" type="checkbox" name="check" value="check1">
+                                <label for="check1">SapientNitro</label>
+                              			<br>
+                                <input id="check2" type="checkbox" name="check" value="check2">
+                                <label for="check2">Sapient Global Market</label>
+                              			<br>
+                                <input id="check3" type="checkbox" name="check" value="check2">
+                                <label for="check3">Sapient Goverment Services</label>
+                              			<br>
+                                <input id="check4" type="checkbox" name="check" value="check2">
+                                <label class="child-check" for="check4">Sapient(m)PHSIZE</label></div>
+                            </div>
+                    </div>
+    </section>
+<p  class="formelts smallview">
+	<input type="submit" name="submit" class="frmbtn"  value="Submit" id="submit"/>
+    </p>
+   </form>
+</div> <!-- Content Ends -->
+ <div class="side smallview">
+    <div class="carousel">
+     	<div id="imageareaTwo">
+                     <div class="blueberry">
+                          <ul class="slides">
+                            <li><img src="./images/item-1.png" alt="" width="200" />
+                            		<p style="height:120px; width:230px;  position:relative; z-index:10; background-color:#c2d337;"><span style="position:absolute; top: -15px;opacity: .5; background-color:#c2d337; height:20px; width:100%;"></span>To explore job opportunities at Sapient, Please see our <a href="#">Hot Jobs</a></p>
+                            </li>
+                            <li><img src="./images/item-2.png" alt="" width="200" />
+                            		<p style="height:120px; width:230px;  position:relative; z-index:10; background-color:#c2d337;"><span style="position:absolute; top: -15px;opacity: .5; background-color:#c2d337; height:20px;width:100%;"></span>To explore job opportunities at Sapient, Please see our <a href="#">Hot Jobs</a></p>
+                            </li>
+                            <li><img src="./images/item-3.png" alt="" width="200" />
+                            		<p style="height:120px; width:230px;  position:relative; z-index:10; background-color:#c2d337;"><span style="position:absolute; top: -15px;opacity: .5; background-color:#c2d337; height:20px;width:100%;"></span>To explore job opportunities at Sapient, Please see our <a href="#">Hot Jobs</a></p>
+                            </li>
+                          </ul>
+                    </div>
+      	</div>
+        <div class="data">
+        </div>
+       </div>
+    </div>
+    
+  </div> <!--Contentarea ends -->
+</div> <!-- Wrapper Ends -->
+
+</body>
+</html>

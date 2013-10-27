@@ -1,0 +1,120 @@
+
+.blueberry { margin: 0 auto; }
+.blueberry .slides {
+	display: block;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.blueberry .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	list-style-type:none;
+	width:200px;
+	/*overflow: hidden;*/
+}
+.blueberry .slides li img {
+	display: block;
+	width: 200px;
+	max-width: none;
+}
+.blueberry .slides li p {
+	color:white;
+        font-size: 0.8em;
+}
+.blueberry .slides li span.fontFormate {
+	
+}
+
+.blueberry .slides li.active { display: block; /*position: relative;*/ }
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	height: 50px;
+	text-align: center;
+	margin-top: 60px;
+margin-right: -189px;
+
+}
+.blueberry .pager li { display: inline-block; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 10px;
+	width: 10px;
+	margin-top:10px;
+}
+.blueberry .pager li a {
+	padding: 18px 5px;
+-webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #ffffff;
+	text-indent: -9999px;
+	-webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+	border-radius: 10px;
+	position:absolute;
+	z-index:99;
+}
+.blueberry .pager li.active a span { background: #000000; }
+
+@media only screen and (max-width : 335px) {
+
+.blueberry { margin: 0 auto; }
+.blueberry .slides {
+        height: 100px;
+        width: 290px;
+	display: block;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.blueberry .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	list-style-type:none;
+	/*overflow: hidden;*/
+}
+.blueberry .slides li img {
+	display: block;
+	width: 290px;
+	max-width: none;
+}
+.blueberry .slides li.active { display: block; /*position: relative;*/ }
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	height: 50px;
+	text-align: center;
+	margin-top: 60px;
+margin-right: -160px;
+
+}
+.blueberry .pager li { display: inline-block; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 10px;
+	width: 10px;
+}
+.blueberry .pager li a {
+	padding: 18px 5px;
+-webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #ffffff;
+	text-indent: -9999px;
+	-webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+	border-radius: 10px;
+	position:absolute;
+	z-index:99;
+}
+.blueberry .pager li.active a span { background: #000000; }}
